@@ -38,7 +38,7 @@ Amazon S3에서 Amazon RDS로 백업 파일 가져 오기에 대한 제한 사�
 
 - Amazon S3 버킷을 암호화할 수 없습니다.
 
-- `Amazon RDS DB 인스턴스와 다른 AWS Region의 Amazon S3 버킷에서 복원 할 수 없습니다.`
+- **`Amazon RDS DB 인스턴스와 다른 AWS Region의 Amazon S3 버킷에서 복원 할 수 없습니다.`**
 
 - Amazon S3에서 가져오기는 `db.t2.micro DB 인스턴스 클래스에서 지원되지 않습니다.` 그러나 다른 DB 인스턴스 클래스로 복원한 다음, 나중에 인스턴스 클래스를 변경할 수 있습니다. 인스턴스 클래스에 대한 자세한 내용은 [사용 가능한 모든 DB 인스턴스 클래스에 대한 사양을 참조하십시오.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.DBInstanceClass.html#Concepts.DBInstanceClass.Summary)
 
